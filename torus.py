@@ -3,6 +3,9 @@
 #executed by running using python3 - python3 torus.py in current directory 
 #wallets and transactions can be changed in __main__
 
+#requires Crypto library - can be installed with pycryptodome by running
+#			   "pip install pycryptodome==3.4.3"
+
 from datetime import datetime
 from Crypto.PublicKey import RSA  
 from Crypto.Cipher import PKCS1_OAEP
